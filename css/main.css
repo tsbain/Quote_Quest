@@ -46,7 +46,10 @@ a {
   width: 33.3%;
 }
 
-.health a, .tobacco a {
+.health a, .tobacco a,
+.amount a, .length a,
+.mode a {
+  float: right;
   margin-left: 30px;
   font-size: 0.8em;
 }

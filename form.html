@@ -227,18 +227,18 @@
       <div class="height">
       <select class="required input-mini" name="applicantHeightInches">
         <option value=""></option>
-        <option value="0">0 inches</option>
-        <option value="1">1 inches</option>
-        <option value="2">2 inches</option>
-        <option value="3">3 inches</option>
-        <option value="4">4 inches</option>
-        <option value="5">5 inches</option>
-        <option value="6">6 inches</option>
-        <option value="7">7 inches</option>
-        <option value="8">8 inches</option>
-        <option value="9">9 inches</option>
-        <option value="10">10 inches</option>
-        <option value="11">11 inches</option>
+        <option value="0">0 in</option>
+          <option value="1">1 in</option>
+          <option value="2">2 in</option>
+          <option value="3">3 in</option>
+          <option value="4">4 in</option>
+          <option value="5">5 in</option>
+          <option value="6">6 in</option>
+          <option value="7">7 in</option>
+          <option value="8">8 in</option>
+          <option value="9">9 in</option>
+          <option value="10">10 in</option>
+          <option value="11">11 in</option>
       </select>
       </div>
 
@@ -277,7 +277,9 @@
       </select>
       </div>
 
-      <label for="amount">How much coverage do you need?</label>
+      <div class="amount">
+      <label for="amount">How much coverage do you need?<a href="#" rel="popover" class="popover-info" data-content="This is the dollar amount the policy will pay to your beneficiaries. This is also called the coverage or face amount." data-original-title="Coverage Amount">More Info</a><a href="/howmuchtermlife">Get Help</a></label>
+      </div>
       <select id="amount" class="required input-medium valid" name="applicantCoverageAmount">
         <option value="50,000">$50,000</option>
         <option value="75,000">$75,000</option>
@@ -334,7 +336,9 @@
         <option value="25,000,000">$25,000,000</option>
       </select>
 
-      <label for="length">How long do you need coverage for?</label>
+      <div class="length">
+      <label for="length">How long do you need coverage for?<a href="#" rel="popover" class="popover-info" data-content="This is the period of time you want to be covered. This is usually between 10 and 30 years." data-original-title="Length of Coverage">More Info</a><a href="/howmuchtermlife">Get Help</a></label>
+      </div>
       <select id="length" class="required input-small" name="applicantCoverageLength">
         <option value="10">10 years</option>
         <option value="15">15 years</option>
@@ -343,8 +347,10 @@
         <option value="30">30 years</option>
       </select>
 
-      <label for="mode">How often would you like to pay?</label>
-      <select "mode" class="required input-medium" name="applicantPaymentMode">
+      <div class="mode">
+      <label for="mode">How often would you like to pay?<a href="#" rel="popover" class="popover-info" data-content="This is the interval you will use to pay premiums for the policy. Options are annual, semi-annual, quarterly and monthly." data-original-title="Premium Payment Mode">More Info</a></label>
+      </div>
+      <select id="mode" class="required input-medium" name="applicantPaymentMode">
         <option value="Annual">Annually</option>
         <option value="Semi-Annual">Semi-Annually</option>
         <option value="Quarterly">Quarterly</option>
