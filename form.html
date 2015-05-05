@@ -12,8 +12,10 @@
 	<form action="index.html" method="post">
 
     <fieldset>
-
+      <section class="applicant">
+      <div class="heading">
       <legend><span class="number">1</span> Applicant Information</legend>
+      </div>
 
       <label for="state">State of Residence</label>
       <select class="state" id="state" name="applicantState">
@@ -73,10 +75,7 @@
 
       <div class="radio">
         <label>Gender</label>
-        <br>
-        <br>
-
-        <label class="light" for="female">
+         <label class="light" for="female">
           <input type="radio" id="female" value="female" checked="checked" name="applicantGender"> Female
         </label>
 
@@ -571,13 +570,16 @@
 <option value="398">398 lbs.</option>
 <option value="399">399 lbs.</option>
 <option value="400">400 lbs.</option>
-    </select>
+   </select>
+  </section>
+</fieldset>
 
-    </fieldset>
-
+    <div class="heading">
     <legend><span class="number">2</span> Insurance Information</legend>
+    </div>
 
     <fieldset>
+      <section class="applicant">
 
      <div class="tobacco">
         <label for="tobacco">Have you used tobacco or nicotine products?<a href="#" rel="popover" class="popover-info" data-content="Examples include cigarettes, cigars, pipes, electronic cigarettes, vaping devices, chewing tobacco, snuff, nicotine patches, nicotine gum, etc."
@@ -592,6 +594,7 @@
         <option value="None in last 1 year">None in last 1 year</option>
         <option value="Current User">Current User</option>
       </select>
+      </div>
 
       <div class="health">
       <label for="health">How would you rate your health? <a href="#" rel="popover" class="popover-info" data-content="Your health and lifestyle choices help determine the cost of your policy. Please choose one of these four options. Click on the 'Get Help' link for help choosing your health." data-original-title="Your Health">More Info</a><a href="/uwGuideLines.html">Get Help</a></label>
@@ -683,8 +686,8 @@
         <option value="Quarterly">Quarterly</option>
         <option value="Monthly">Monthly</option>
       </select>
-
-    </fieldset>
+    </section>
+  </fieldset>
 
   <div style="text-align: center">  
   <button type="submit">GET QUOTES</button>

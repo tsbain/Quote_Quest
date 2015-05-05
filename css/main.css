@@ -24,6 +24,11 @@ a {
   text-decoration: none;
 }
 
+.heading {
+  border-bottom: 2px solid firebrick;
+  margin-bottom: 30px;
+}
+
 .date {
   padding: 2px;
   display: inline-block;
@@ -131,6 +136,7 @@ button {
   border-color: #0bb5ff;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1)       inset;
   margin-bottom: 10px;
+  margin-top: 25px;
   transition-property: background;
   transition-duration: .25s;
   transition-timing-function: linear;
@@ -154,13 +160,22 @@ fieldset {
 
 legend {
   font-size: 2.0em;
-  margin-bottom: 25px;
+  margin-bottom: 10px;
 }
 
-label {
+.applicant label {
   font-size: 1.4em;
   font-weight: 700;
   display: block;
+  margin-top: 10px;
+  margin-bottom: 8px;
+}
+
+.insurance label {
+  font-size: 1.4em;
+  font-weight: 700;
+  display: block;
+  margin-top: 25px;
   margin-bottom: 8px;
 }
 
